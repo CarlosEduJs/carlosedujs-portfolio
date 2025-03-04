@@ -1,0 +1,36 @@
+{
+  "Metadata": {
+    "title": "CarlosEduJS",
+    "description": "Uma vitrine dos meus melhores projetos, demonstrando minhas habilidades em desenvolvimento web."
+  },
+  "CTAButton": "Ver meu Github",
+  "GithubBtn": {
+    "content": "Ver todos os repositórios no Github"
+  },
+  "Header": {
+    "navLinks": {
+      "home": "Home",
+      "about": "Sobre",
+      "projects": "Projetos",
+      "contact": "Contato"
+    }
+  },
+  "Hero": {
+    "title": "Olá, eu sou Carlos Eduardo"
+  },
+  "Projects": {
+    "title": "Projetos",
+    "content": "Cada linha de código conta uma história. Dá uma olhada nos meus projetos e vê como eu transformo ideias em realidade, criando experiências digitais que fazem a diferença."
+  },
+  "About": {
+    "title": "Sobre mim",
+    "content": "Sou um desenvolvedor front-end apaixonado por transformar ideias em interfaces fluidas e intuitivas. Tenho uma base sólida em HTML, CSS e JavaScript, e atualmente estou me aprofundando em React e Next.js. Gosto de criar aplicações dinâmicas que proporcionam boas experiências para os usuários, sempre buscando aprender e encarar novos desafios no caminho."
+  },
+  "Contact": {
+    "title": "Fale comigo",
+    "subtitle": "Vamos conversar",
+    "content": "Tem uma ideia ou só quer bater um papo? Manda um email ou me chama no LinkedIn — pronto para trocar uma ideia!",
+    "btnSendEmail": "Me envie um email",
+    "btnConnectLinkedIn": "Me conecte no LinkedIn"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "Metadata": {
+    "title": "CarlosEduJS",
+    "description": "A showcase of my best projects, demonstrating my skills in web development."
+  },
+  "CTAButton": "Visit my Github",
+  "GithubBtn": {
+    "content": "View all Repositories in Github"
+  },
+  "Header": {
+    "navLinks": {
+      "home": "Home",
+      "about": "About",
+      "projects": "Projects",
+      "contact": "Contact"
+    }
+  },
+  "Hero": {
+    "title": "Hi, I'm Carlos Eduardo"
+  },
+  "About": {
+    "title": "About me",
+    "content": "I'm a front-end developer passionate about turning ideas into smooth and intuitive interfaces. I have a solid foundation in HTML, CSS, and JavaScript, and I'm currently diving deeper into React and Next.js. I enjoy building dynamic applications that provide great user experiences, always eager to learn and take on new challenges along the way."
+  },
+  "Projects": {
+    "title": "Projects",
+    "content": "Every line of code has a story to tell. Take a look at my projects and see how I bring ideas to life, creating digital experiences that make an impact."
+  },
+  "Contact": {
+    "title": "Get in Touch",
+    "subtitle": "Let's Connect",
+    "content": " Have an idea or just want to chat? Shoot me an email or message me on LinkedIn — Ready to exchange ideas!",
+    "btnSendEmail": "Send me an email",
+    "btnConnectLinkedIn": "Connect on LinkedIn"
+  }
+}
