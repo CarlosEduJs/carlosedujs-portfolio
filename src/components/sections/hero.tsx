@@ -49,7 +49,7 @@ function HeroContent1() {
         <CTAButton />
         
       </div>
-      <div className="flex gap-4">
+      <div className="flex gap-4 z-10">
         <Link
           href="https://www.linkedin.com/in/carlosedujs/"
           target="_blank"
