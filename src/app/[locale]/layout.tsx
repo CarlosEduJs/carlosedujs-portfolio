@@ -2,30 +2,23 @@ import type { Metadata } from "next";
 import "@/app/globals.css";
 import { geist } from "../fonts";
 import Header from "@/components/header";
-import { getMessages, getTranslations } from "next-intl/server";
+import { getMessages } from "next-intl/server";
 import { NextIntlClientProvider } from "next-intl";
 
-export async function generateMetadata({
-  params,
-}: {
-  params: { locale: string };
-}): Promise<Metadata> {
-  const { locale } = await params;
-
-  const t = await getTranslations({ locale, namespace: "Metadata" });
-
-  return {
-    title: t("title"),
-    description: t("description"),
-  };
-}
+export const metadata: Metadata = {
+  title: "CarlosEduJS",
+  description: "Uma vitrine dos meus melhores projetos, demonstrando minhas habilidades em desenvolvimento web.",
+};
 
 type Props = {
   children: React.ReactNode;
-  params: Promise<{ locale: string }>;
+  params: Promise<{locale: string}>;
 };
 
-export default async function RootLayout({ children, params }: Props) {
+export default async function RootLayout({
+  children,
+  params,
+}: Props) {
   const { locale } = await params;
 
   const messages = await getMessages();
