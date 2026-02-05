@@ -29,6 +29,9 @@ export const metadata: Metadata = {
 	],
 	authors: [{ name: "Carlos Eduardo", url: "https://github.com/carlosedujs" }],
 	creator: "Carlos Edu Js",
+	verification: {
+		google: "Bco0meN-73Wimh1fOAJS4gtnEdGqooYR5zKQOfH0CkU",
+	},
 	openGraph: {
 		type: "website",
 		locale: "en_US",
