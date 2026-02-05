@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
 			userAgent: "*",
 			allow: "/",
 		},
-		sitemap: "https://carlosedujs.dev/sitemap.xml",
+		sitemap: "https://carlosedujs-portfolio.vercel.app/sitemap.xml",
 	};
 }

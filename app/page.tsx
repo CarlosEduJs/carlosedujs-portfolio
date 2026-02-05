@@ -32,7 +32,7 @@ export const metadata: Metadata = {
 	openGraph: {
 		type: "website",
 		locale: "en_US",
-		url: "https://carlosedujs.vercel.app",
+		url: "https://carlosedujs-portfolio.vercel.app/",
 		title: "Carlos Edu Js - Software Developer Portfolio",
 		description:
 			"Software enthusiast building projects with Go, JavaScript, TypeScript, React and more.",
